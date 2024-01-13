@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="pay.css">
+</head>
+<body>
+    <form action="">
+      <div class="container">
+        <h1><U><center>Payment Form</center></U></h1>
+        <p><i>Please fill the informations to RedStore. After filling the form you will get one confirmation mail where you have to pay for the item.</i></p>
+        <hr/>
+        <label><b> Name : <font color="red">*</font></b></label>
+        <input type="text" placeholder=" Name"  id="register" required/>
+        <br><br>
+        <label><b>email : <font color="red">*</font></b></label>
+        <input type="text" placeholder="email" id="register"  required/>
+        <br><br>
+        <label><b>Gender : </b></label>
+        <input type="radio" required/>
+        <span id="gender">Male</span>
+        <input type="radio"/>
+        <span id="gender">Female</span>
+        <input type="radio"/>
+        <span id="gender">Other</span>
+        <br><br>
+        <label><b>Mobile Number : <font color="red">*</font></b></label>
+        <input type="text" placeholder="ph no." id="register"  required/>
+        <br><br>
+        <label><b>Size of the item : <font color="red">*</font></b></label>
+        <select>
+          <option>Choose an option</option>
+            <option>XS (Extra-Small)</option>
+            <option>S (Small)</option>
+            <option>M (Medium)</option>
+            <option>L (Large)</option>
+            <option>XL (Extra-Large)</option>
+            <option>XXL (Double-Extra_Large)</option>
+        </select>    
+        <br><br>
+        <label><b>Price of the product : </b></label>
+        <input type="text" placeholder="price" id="register"  required/>
+        <br><br>
+        <label><b>Your current location : <font color="red">*</font></b></label>
+        <br><br>
+        <input type="text" placeholder="Full Address" id="bio"  required/>
+        <br>
+        <hr/>
+        <center><button type="submit" class="submit">BUY NOW ~></button></center>
+      </div>
+    </form>  
+</body>
+</html>

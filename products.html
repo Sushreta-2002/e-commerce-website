@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - RedStore</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,100;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+</head>
+<body>
+
+   
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo.png" width="125px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <img src="images/cart.png" width="30px" height="30px ">
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" >
+        </div>
+    
+    </div>
+ </div>
+ 
+<div class="small-container">
+
+    <div class="row row-2">
+        <h2>All Products ~</h2>
+        <select> 
+            <option>Default Sorting</option>
+            <option>Short by price</option>
+            <option>Short by popularity </option>
+            <option>Short by rating </option>
+            <option>Short by sale </option>
+        </select>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/dress7.jpg">
+            <h4>Short dress (30% OFF)</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p class="price">₹ 2099.00</p>
+            <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+        </div>
+        
+        <div class="col-4">
+            <img src="images/smart watch2.jpg">
+            <h4><br><br>Smart Watch(40% OFF)</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p class="price">₹ 2599.00</p>
+            <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+        </div>
+        <div class="col-4">
+            <img src="images/churidar.jpeg">
+            <h4>Churidar for Women (40% OFF)</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p class="price">₹ 3599.00</p>
+            <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+        </div>
+        <div class="col-4">
+            <img src="images/jeans2.jpg">
+            <h4>Jeans for Men(30% OFF)</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p class="price">₹ 1299.00</p>
+            <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/jacket2.jpg">
+            <h4>Denim jacket for girls</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p class="price">₹ 899.00</p>
+            <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+        </div>
+        
+        <div class="col-4">
+            <img src="images/ornament1.jpg">
+            <h4><br><br><br>Jewellary for Girls(20% OFF)</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p class="price">₹ 599.00</p>
+            <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+        </div>
+        <div class="col-4">
+            <img src="images/lahenga1.jpg">
+            <h4>Lehenga for Women (40% OFF)</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p class="price">₹ 4599.00</p>
+            <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+        </div>
+        <div class="col-4">
+            <img src="images/product-4.jpg">
+            <h4><br>Blue T-Shirt(30% OFF)</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p class="price">₹ 499.00</p>
+            <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/hair kit.jpg">
+            <h4><br><br><br>5 in 1 Hair-kits (50% OFF)</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p class="price">₹ 2599.00</p>
+            <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+        </div>
+        
+        <div class="col-4">
+            <img src="images/dress8.jpg">
+            <h4>Indo-Western Dress (40% OFF)</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p class="price">₹ 1199.00</p>
+            <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+        </div>
+        <div class="col-4">
+            <img src="images/product-3.jpg">
+            <h4>Trousers for Men (30% OFF)</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p class="price">₹ 499.00</p>
+            <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+        </div>
+        <div class="col-4">
+            <img src="images/smart band.jpg">
+            <h4><br>Smart-Band (40% OFF)</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p class="price">₹ 1699.00</p>
+            <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/product-1.jpg">
+            <h4>T-Shirt for Men (20% OFF)</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p class="price">₹ 399.00</p>
+            <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+        </div>
+        
+        <div class="col-4">
+            <img src="images/dress6.jpg">
+            <h4>Black Short Dress (30% OFF)</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p class="price">₹ 1199.00</p>
+            <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+        </div>
+        <div class="col-4">
+            <img src="images/nailpolish.jpg">
+            <h4><br><br>Nail-Polish (3 colour)</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p class="price">₹ 299.00 for one</p>
+            <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+        </div>
+        <div class="col-4">
+            <img src="images/sari2.jpg">
+            <h4>Sari for Women (40% OFF)</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p class="price">₹ 899.00</p>
+            <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/product-5.jpg">
+            <h4>Shoes for Men (40% OFF)</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p class="price">₹ 899.00</p>
+            <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+        </div>
+        
+        <div class="col-4">
+            <img src="images/product-6.jpg">
+            <h4>Black T-Shirt (30% OFF)</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p class="price">₹ 599.00</p>
+            <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+        </div>
+        <div class="col-4">
+            <img src="images/breclet1.jpg">
+            <h4>Braclet for Women (60% OFF)</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p class="price">₹ 1400.00</p>
+            <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+        </div>
+        <div class="col-4">
+            <img src="images/dress4.jpg">
+            <h4>Long-Kurti (40% OFF)</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p class="price">₹ 850.00</p>
+            <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+        </div>
+    </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/blazer.jpg">
+                <h4><br>Blazer for Men (50% OFF)</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p class="price">₹ 1099.00</p>
+                <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+            </div>
+            
+            <div class="col-4">
+                <img src="images/dress5.jpg">
+                <h4>Gown for Women (30% OFF)</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p class="price">₹ 1599.00</p>
+                <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+            </div>
+            <div class="col-4">
+                <img src="images/shirt1.jpg">
+                <h4>Shirt for Men (30% OFF)</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p class="price">₹ 599.00</p>
+                <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+            </div>
+            <div class="col-4">
+                <img src="images/product-2.jpg">
+                <h4>Shoes for Men (20% OFF)</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p class="price">₹ 499.00</p>
+                <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+            </div>
+        </div>
+    <div class="row">
+        <div class="col-4">
+                    <img src="images/dress3.jpg">
+                    <h4>Gown for girls (40% OFF)</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p class="price">₹ 1200.00</p>
+                    <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+                </div>
+                
+                <div class="col-4">
+                    <img src="images/shirt2.jpg">
+                    <h4><br>Shirt for Men (30% OFF)</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="price">₹ 899.00</p>
+                    <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-8.jpg">
+                    <h4><br>Watch (50% OFF)</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p class="price">₹ 1550.00</p>
+                    <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-7.jpg">
+                    <h4><br>Socks (40% OFF)</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p class="price">₹ 299.00</p>
+                    <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                        <img src="images/sunglass2.jpg">
+                        <h4>Sunglass for Women (30% OFF)</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p class="price">₹ 899.00</p>
+                        <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+                    </div>
+                    <div class="col-4">
+                            <img src="images/ring.jpg">
+                            <h4>Ring for girls (40% OFF)</h4>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <p class="price">₹ 2500.00</p>
+                            <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+                        </div>
+                        
+                        <div class="col-4">
+                            <img src="images/blazer2.jpg">
+                            <h4><br>Blazer (40% OFF)</h4>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <p class="price">₹ 1550.00</p>
+                            <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+                        </div>
+                        <div class="col-4">
+                            <img src="images/heel shoe.jpg">
+                            <h4><br>Heel-Shoes for girls (40% OFF)</h4>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <p class="price">₹ 899.00</p>
+                            <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+                        </div>
+                    </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/drees1.jpg">
+                    <h4>Red Short Dress (40% OFF)</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p class="price">₹ 899.00</p>
+                    <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+                </div>
+                
+                <div class="col-4">
+                    <img src="images/product-10.jpg">
+                    <h4>Shoes for Men (20% OFF)</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="price">₹ 599.00</p>
+                    <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+                </div>
+                <div class="col-4">
+                    <img src="images/smart watch.jpg">
+                    <h4><br>Smart-Watch (40% OFF)</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p class="price">₹ 1599.00</p>
+                    <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-12.jpg">
+                    <h4>Trousers for Men(30% OFF)</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="price">₹ 399.00</p>
+                    <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/jeans.jpg">
+                    <h4>Jeans for Woman (30% OFF)</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p class="price">₹ 1200.00</p>
+                    <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+                </div>
+                
+                <div class="col-4">
+                    <img src="images/sari 1.jpg">
+                    <h4>Sari for Women (40% OFF)</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="price">₹ 1399.00</p>
+                    <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+                </div>
+                <div class="col-4">
+                    <img src="images/maleup.jpg">
+                    <h4><br><br><br><br>Eye-Shadow-Palate for Women (40% OFF)</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p class="price">₹ 899.00</p>
+                    <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+                </div>
+                <div class="col-4">
+                    <img src="images/jacket.jpeg">
+                    <h4>Lather jacket (30% OFF)</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="price">₹ 2299.00</p>
+                    <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/product-9.jpg">
+                    <h4>Watch (30% OFF)</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p class="price">₹ 1799.00</p>
+                    <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+                </div>
+                
+                <div class="col-4">
+                    <img src="images/drees2.jpg">
+                    <h4>Frock for girls (40% OFF)</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p class="price">₹ 499.00</p>
+                    <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+                </div>
+                <div class="col-4">
+                    <img src="images/foundation.jpg">
+                    <h4><br>Combo Offer -Foundations,Primers,Lipsticks,<br>Highlighter,Eye-Lyner<br>(50% OFF)</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="price">₹ 2599.00</p>
+                    <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+                </div>
+                <div class="col-4">
+                    <img src="images/sari3.jpg">
+                    <h4>Party-Sari for Women (40% OFF)</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="price">₹ 1299.00</p>
+                    <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/powder.jpg">
+                    <h4><br>Foundation Powder (30% OFF)</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p class="price">₹ 799.00</p>
+                    <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+                </div>
+                
+                <div class="col-4">
+                    <img src="images/sunglass.jpg">
+                    <h4><br><br><br>Sunglasses (20% OFF)</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p class="price">₹ 599.00 for ONE</p>
+                    <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+                </div>
+                <div class="col-4">
+                    <img src="images/churidar.jpg">
+                    <h4>Saloyar (40% OFF)</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="price">₹ 1299.00</p>
+                    <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+                </div>
+                <div class="col-4">
+                    <img src="images/ornament2.jpg">
+                    <h4><br><br><br><br>Jwellary for Woman (40% OFF)</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="price">₹ 2200.00</p>
+                    <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/top.jpeg">
+                    <h4><br>Shirt for girls (40% OFF)</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p class="price">₹ 699.00</p>
+                    <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+                </div>
+                
+                <div class="col-4">
+                    <img src="images/lipstick.jpg">
+                    <h4>Lipstick (20% OFF)</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p class="price">₹ 599.00</p>
+                    <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+                </div>
+                <div class="col-4">
+                    <img src="images/skirt.jpg">
+                    <h4>Long-Skirt (30% OFF)</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="price">₹ 899.00</p>
+                    <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+                </div>
+                <div class="col-4">
+                    <img src="images/shirt3.jpg">
+                    <h4><br><br>Formal Shirt for Men (50% OFF)</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="price">₹ 2000.00</p>
+                    <a class="link" href="payment_form.html"><u><b>ADD TO CART-></b></u></a><br>
+                </div>
+            </div>    
+    </div>
+ 
+</div>
+
+
+
+
+<!-- footer -->
+
+<div class="footer" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Dowload Our App</h3>
+                <p>Download App for Android and ios mobile phone </p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/logo-white.png">
+                
+                <form action="action_page.php" class="form">
+
+                    <label for="fname">Name ~</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name.." style="height:30px">
+                
+                    <label for="lname">E-mail ~</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your email address.." style="height:30px">
+                
+                
+                    <label for="subject">Text Us ~</label>
+                    <textarea id="subject" name="subject" placeholder="Write Something.." style="height:60px"></textarea>
+                    <input type="submit" value="SEND &#8594;">
+                  </form>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+               <ul>
+                   <li>Coupons</li>
+                   <li>Blog Post</li>
+                   <li>Return Policy</li>
+                   <li>Join Affiliate</li>
+               </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+               <ul>
+                   <li>Facebook</li>
+                   <li>Twitter</li>
+                   <li>Instagram</li>
+                   <li>YouTube</li>
+               </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="Copyright">Made by Sushreta Som❤️</p>
+    </div>
+</div>
+<!-- js for toggle menu -->
+<script>
+    var MenuItems = document.getElementById("MenuItems")
+
+    MenuItems.style.maxHeight = "0px"
+
+    function menutoggle() {
+        if( MenuItems.style.maxHeight == "0px")
+     {
+            MenuItems.style.maxHeight = "200px"
+    }
+    else {
+        MenuItems.style.maxHeight = "0px"
+    }
+}
+</script>
+
+</body>
+</html>

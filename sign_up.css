@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(241, 174, 141);
+    background-size: 150%;
+    background-position: -20px 0px;
+}
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    margin-bottom: 40px;
+    padding: 0.5em;
+    background-color: rgb(241, 246, 250);
+    font-size: 20px;
+    font-family: 'lucida caligraphy';
+    border-radius:40px;
+    color:rgb(186, 78, 38);
+}
+.container1{
+    padding-bottom: 2em;
+    border-bottom: 4px dotted rgb(219, 103, 45);
+}
+ h1 {
+    font-family: 'Poppins', sans-serif;
+    padding: 0.3em;
+    color: rgb(222, 95, 37);
+    font-size: 30px;
+ }
+label {
+    display:inline-table;
+    height: 20px;;
+    width: 100%;
+    font-size: 20px;
+} 
+input#register{
+    width: 770px;
+}
+
+input#bio{
+    width:770px;
+    height:70px;
+}
+.submit{
+    font-size: 20px;
+    background-color: rgb(242, 173, 142);
+    height: 30px;
+    width: 120px;
+    color: rgb(21, 24, 24);
+    border-radius:20px;
+    padding-bottom: dotted;
+}
+.submit:hover{
+    background-color: rgb(240, 120, 87);
+}
+select{
+    width: 770px;
+    height: 22px;
+}
