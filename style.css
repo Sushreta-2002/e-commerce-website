@@ -55,9 +55,13 @@ nav ul li a:hover::after{
 
 
 .search {
-  width: 100%;
-  
+    position: absolute;
+  width: 400px;
+  height: 300px;
+  margin-left: 60px;
+  margin-top: -30px;
   display: flex;
+  flex-direction: row;
 }
 
 .searchTerm {
@@ -609,11 +613,4 @@ h5{
     font-size: 40px;
     color: #ff523b;
     text-shadow: #000;
-}
-.searchButton{
-     width: 50px;
-     height: 5px;
-}
-.search{
-    width:50%;
 }
